@@ -8,7 +8,7 @@ except:
     import typesutil
 import random
 try:
-    os.system('pip install secrets && pip install uuid && pip install requests && pip install faker && pip install captcha_solver && pip install selenium && cls')
+    os.system('pip install secrets && pip install colorfy && pip install requests && pip install faker && pip install captcha_solver && pip install selenium && cls')
 except:
     pass
 
@@ -16,6 +16,7 @@ import secrets
 import shutil
 import string
 import zipfile
+from colorfy import color
 from time import sleep
 from pprint import pprint
 from uuid import uuid4
